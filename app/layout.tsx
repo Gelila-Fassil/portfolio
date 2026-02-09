@@ -12,23 +12,10 @@ export const metadata: Metadata = {
   title: "Gelila Fassil | Full-Stack Web Developer",
   description:
     "Full-Stack Web Developer with 3+ years of experience building modern, responsive web applications using React, Next.js, and Node.js. Specializing in creating beautiful user experiences and scalable solutions.",
-  generator: "v0.app",
+
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/favicon-32x32.png",
+    apple: "/favicon-32x32.png",
   },
 }
 
