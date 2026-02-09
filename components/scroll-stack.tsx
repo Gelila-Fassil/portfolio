@@ -23,7 +23,7 @@ export function ScrollStack({ items, offset = 40 }: ScrollStackProps) {
                     }}
                 >
                     <div
-                        className="relative w-full bg-card/80 backdrop-blur-xl border border-primary/20 rounded-xl shadow-2xl overflow-hidden origin-top transition-all duration-500"
+                        className="relative w-full origin-top transition-all duration-500"
                         style={{
                             // Simple scale effect based on index could be added here if we track scroll, 
                             // but purely sticky stacking is robust and performs well.

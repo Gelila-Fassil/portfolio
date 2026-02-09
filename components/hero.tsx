@@ -24,8 +24,9 @@ export function Hero() {
               </h1>
 
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl text-pretty">
-                Full-Stack Web Developer with 2+ years of experience building responsive, high-performance web applications
-                using modern frameworks and best practices for seamless user experiences.
+                I am a Full-Stack Developer with 2+ years of experience specializing in React/Next.js for frontend and
+                Node.js/Nest.js for backend development. I build dynamic, user-friendly websites and robust applications
+                tailored to client needs.
               </p>
             </div>
 
@@ -91,13 +92,13 @@ export function Hero() {
                   <span className="text-primary">const</span> <span className="text-foreground">developer</span> ={" "}
                   {"{\n"}
                   {"  "}name: <span className="text-primary">'Gelila Fassil'</span>,{"\n"}
-                  {"  "}role: <span className="text-primary">'Full-Stack Web Developer'</span>,{"\n"}
-                  {"  "}experience: <span className="text-primary">'3+ years'</span>,{"\n"}
+                  {"  "}role: <span className="text-primary">'Full-Stack Developer'</span>,{"\n"}
+                  {"  "}experience: <span className="text-primary">'2+ years'</span>,{"\n"}
                   {"  "}skills: [<span className="text-primary">'React'</span>,{" "}
                   <span className="text-primary">'Next.js'</span>, <span className="text-primary">'Node.js'</span>],
                   {"\n"}
-                  {"  "}focus: <span className="text-primary">'Modern Web Development'</span>,{"\n"}
-                  {"  "}status: <span className="text-green-400">'Building Amazing UX'</span>
+                  {"  "}contact: <span className="text-primary">'+251962464070'</span>,{"\n"}
+                  {"  "}focus: <span className="text-primary">'Modern Web Development'</span>
                   {"\n"}
                   {"}"};
                 </code>

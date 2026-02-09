@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { Orbitron, Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
-import { BlobCursor } from "@/components/blob-cursor"
+
 
 const orbitron = Orbitron({ subsets: ["latin"], variable: "--font-heading" })
 const inter = Inter({ subsets: ["latin"] })
@@ -40,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={orbitron.variable}>
       <body className={`${inter.className} antialiased`}>
-        <BlobCursor />
+
         {children}
         <Analytics />
       </body>

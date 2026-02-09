@@ -30,28 +30,35 @@ export function ContactCTA() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button
-                size="lg"
-                className="group bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25"
-              >
-                <Mail className="mr-2 h-5 w-5" />
-                Get In Touch
-                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
+              <a href="mailto:gelilafassil659@gmail.com">
+                <Button
+                  size="lg"
+                  className="group bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25"
+                >
+                  <Mail className="mr-2 h-5 w-5" />
+                  gelilafassil659@gmail.com
+                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </a>
 
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-primary/30 hover:bg-primary/10 hover:border-primary bg-transparent"
-              >
-                View LinkedIn
-              </Button>
+              <div className="flex flex-col gap-2 items-center">
+                 <Button
+                    size="lg"
+                    variant="outline"
+                    className="border-primary/30 hover:bg-primary/10 hover:border-primary bg-transparent w-full"
+                    asChild
+                 >
+                    <a href="tel:+251962464070">
+                       +251962464070
+                    </a>
+                 </Button>
+              </div>
             </div>
 
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary" style={{ fontFamily: "var(--font-heading)" }}>
-                  3+
+                  2+
                 </div>
                 <div className="text-sm text-muted-foreground mt-1">Years Experience</div>
               </div>
