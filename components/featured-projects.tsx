@@ -5,6 +5,13 @@ import { Button } from "@/components/ui/button"
 import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
+   {
+    title: "Origin Land Coffee",
+    description: "I developed this official business website for a premium coffee exporter using WordPress. The site showcases high-quality coffee products and origin stories, providing a professional digital presence to connect Ethiopian coffee with the global market.",
+    tech: ["WordPress"],
+    image: "/pic5.png",
+    link: "https://originlandcoffee.com/#",
+  },
   {
     title: "Ethiopian Diaspora Service",
     description: "I built a full-stack web platform for the Ethiopian Diaspora Service using Next.js to connect global citizens with their homeland. The site streamlines access to investment opportunities, community resources, and government services in one seamless interface.",
@@ -40,13 +47,7 @@ const projects = [
     image: "/pic4.png",
     link: "https://beteseb-restorant.vercel.app/#",
   },
-  {
-    title: "Origin Land Coffee",
-    description: "I developed this official business website for a premium coffee exporter using WordPress. The site showcases high-quality coffee products and origin stories, providing a professional digital presence to connect Ethiopian coffee with the global market.",
-    tech: ["WordPress"],
-    image: "/pic5.png",
-    link: "https://originlandcoffee.com/#",
-  },
+ 
   {
     title: "Mademoiselle Emma Beauty",
     description: "I developed this full-stack beauty and wellness platform using Next.js, featuring a custom admin side built with Sanity. This setup allows the client to easily manage service listings, galleries, and content updates in real-time through a streamlined dashboard.",
