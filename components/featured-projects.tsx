@@ -5,57 +5,66 @@ import { Button } from "@/components/ui/button"
 import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
-   {
+  {
+    title: "IMS MAKEUP School",
+    description:
+      "I built this full-stack educational platform for Ethiopia’s premier makeup academy using Next.js. The site features a professional course management system and a creative showcase to help aspiring artists transition from students to industry professionals.",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript"],
+    image: "/pic3.png",
+    link: "https://imsmakeupschool.com/",
+  },
+
+  {
+    title: "Mademoiselle Emma Beauty",
+    description:
+      "I developed this full-stack beauty and wellness platform using Next.js, featuring a custom admin side built with Sanity. This setup allows the client to easily manage service listings, galleries, and content updates in real-time through a streamlined dashboard.",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "Sanity.io"],
+    image: "/pic6.png",
+    link: "https://www.mademoiselleemmabeauty.com/",
+  },
+
+  {
     title: "Origin Land Coffee",
-    description: "I developed this official business website for a premium coffee exporter using WordPress. The site showcases high-quality coffee products and origin stories, providing a professional digital presence to connect Ethiopian coffee with the global market.",
+    description:
+      "I developed this official business website for a premium coffee exporter using WordPress. The site showcases high-quality coffee products and origin stories, providing a professional digital presence to connect Ethiopian coffee with the global market.",
     tech: ["WordPress"],
     image: "/pic5.png",
     link: "https://originlandcoffee.com/#",
   },
-  {
-    title: "Ethiopian Diaspora Service",
-    description: "I built a full-stack web platform for the Ethiopian Diaspora Service using Next.js to connect global citizens with their homeland. The site streamlines access to investment opportunities, community resources, and government services in one seamless interface.",
-    tech: ["Next.js", "Tailwind CSS", "TypeScript", "PostgreSQL",],
-    image: "/pic1.png",
-    link: "https://www.ethiopiandiasporaservice.gov.et/", 
-  },
-  {
-    title: "Macro General Contractor",
-    description: "I developed this professional corporate platform for a leading Ethiopian construction firm using Next.js and Strapi CMS. This architecture empowers the client to independently manage their project portfolio, equipment rentals, and real estate listings through a user-friendly admin dashboard",
-    tech: ["Next.js", "Tailwind CSS", "TypeScript", "Strapi CMS",],
-    image: "/pic7.webp",
-    link: "https://macrogc.com/", 
-  },
+
   {
     title: "AutoLink Ethiopia Car Rental",
-    description: "I developed this full-stack automotive marketplace using Next.js to connect car buyers and sellers in Ethiopia. I also integrated Sanity.io to build a custom admin dashboard, allowing for seamless real-time management of vehicle listings and site content.",
-    tech: ["Next.js", "Tailwind CSS", "TypeScript", "Sanity.io",],
+    description:
+      "I developed this full-stack automotive marketplace using Next.js to connect car buyers and sellers in Ethiopia. I also integrated Sanity.io to build a custom admin dashboard, allowing for seamless real-time management of vehicle listings and site content.",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "Sanity.io"],
     image: "/pic2.png",
-    link: "https://auto-link-ethiopia.vercel.app/",
-  },
-  {
-    title: "IMS MAKEUP School",
-    description: "I built this full-stack educational platform for Ethiopia’s premier makeup academy using Next.js. The site features a professional course management system and a creative showcase to help aspiring artists transition from students to industry professionals.",
-    tech: ["Next.js", "Tailwind CSS", "TypeScript"],
-    image: "/pic3.png",
-    link: "https://imsmakeupschool.com/", 
+    link: "https://www.autolinkethiopia.com/",
   },
   {
     title: "Beteseb Restaurant",
-    description: "I am currently developing this full-stack restaurant platform using Next.js to provide a modern digital dining experience. The project is in the development phase, focusing on streamlined menu management and an intuitive interface for online customers.",
+    description:
+      "I am currently developing this full-stack restaurant platform using Next.js to provide a modern digital dining experience. The project is in the development phase, focusing on streamlined menu management and an intuitive interface for online customers.",
     tech: ["Next.js", "Tailwind CSS", "TypeScript"],
     image: "/pic4.png",
     link: "https://beteseb-restorant.vercel.app/#",
   },
- 
   {
-    title: "Mademoiselle Emma Beauty",
-    description: "I developed this full-stack beauty and wellness platform using Next.js, featuring a custom admin side built with Sanity. This setup allows the client to easily manage service listings, galleries, and content updates in real-time through a streamlined dashboard.",
-    tech: ["Next.js", "Tailwind CSS", "TypeScript", "Sanity.io"],
-    image: "/pic6.png",
-    link: "https://mademoiselle-emma-beauty.vercel.app/#",
+    title: "Macro General Contractor",
+    description:
+      "I developed this professional corporate platform for a leading Ethiopian construction firm using Next.js and Strapi CMS. This architecture empowers the client to independently manage their project portfolio, equipment rentals, and real estate listings through a user-friendly admin dashboard",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "Strapi CMS"],
+    image: "/pic7.webp",
+    link: "https://macrogc.com/",
   },
-]
+  {
+    title: "Ethiopian Diaspora Service",
+    description:
+      "I built a full-stack web platform for the Ethiopian Diaspora Service using Next.js to connect global citizens with their homeland. The site streamlines access to investment opportunities, community resources, and government services in one seamless interface.",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "PostgreSQL"],
+    image: "/pic1.png",
+    link: "https://www.ethiopiandiasporaservice.gov.et/",
+  },
+];
 
 export function FeaturedProjects() {
   return (
